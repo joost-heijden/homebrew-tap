@@ -7,6 +7,8 @@ cask "tickoala" do
   desc "Automatic work-hours tracking based on the Wi-Fi network you are on"
   homepage "https://github.com/joost-heijden/Tickoala"
 
+  depends_on macos: ">= :ventura"
+
   livecheck do
     url :url
     strategy :github_latest
