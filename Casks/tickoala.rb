@@ -1,6 +1,6 @@
 cask "tickoala" do
-  version "1.9.0"
-  sha256 "882173053cb14ee4cada4035e1a837e8e161fc4895766b358139f17f911ae671"
+  version "1.10.0"
+  sha256 "786ff4590e65d128d7d8a441827314ce4bb39b979f9c0f7cbcc7c195afd5d92c"
 
   url "https://github.com/joost-heijden/Tickoala/releases/download/v#{version}/Tickoala-#{version}.zip"
   name "Tickoala"
